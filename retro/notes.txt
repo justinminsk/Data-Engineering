@@ -1,0 +1,17 @@
+./configure
+make
+sudo make install
+sudo ldconfig
+
+cwevent
+cwevent -y 1998 -f 0,10,34 1998PHI.EVN
+
+homeruns are 23
+0 is id
+10 is playercode
+
+cwevent -y 1998 -f 0,10,34 1998*.EV*
+
+roster bio info
+event, every event in the baseball season and only interested in the HRs (23)
+
